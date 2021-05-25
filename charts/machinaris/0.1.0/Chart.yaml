@@ -1,0 +1,17 @@
+apiVersion: v1
+description: An easy-to-use, pure-Docker solution, for both plotting and farming the Chia cryptocurrency
+name: machinaris
+version: 0.1.0
+appVersion: 0.3.0
+keywords:
+- storage
+- crypto
+- blockchain
+home: https://github.com/guydavis/machinaris
+icon: https://www.chia.net/img/chia_logo.svg
+sources:
+- https://github.com/guydavis/machinaris
+dependencies:
+  - name: common
+    repository: file://../../../library/common/2104.0.0
+    version: 2104.0.0

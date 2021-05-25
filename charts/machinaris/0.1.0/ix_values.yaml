@@ -1,0 +1,5 @@
+image:
+  repository: guydavis/machinaris
+  tag: v0.3.0
+  pullPolicy: IfNotPresent
+updateStrategy: Recreate

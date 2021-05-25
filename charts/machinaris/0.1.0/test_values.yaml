@@ -1,0 +1,29 @@
+# Default values
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+image:
+  repository: guydavis/machinaris
+  tag: v0.3.0
+  pullPolicy: IfNotPresent
+updateStrategy: Recreate
+
+environmentVariables:
+  - name: "YOUR_FARMER_PK"
+    value: "abc"
+  - name: "YOUR_POOL_PK"
+    value: "xyz"
+
+timezone: "Etc/UTC"
+
+appVolumeMounts:
+  temp:
+    emptyDir: true
+    mountPath: "/plots"
+  dest:
+    emptyDir: true
+    mountPath: "/plotting"
+  config:
+    emptyDir: true
+    mountPath: "/root/.chia"
+emptyDirVolumes: true
