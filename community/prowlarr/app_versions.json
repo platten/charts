@@ -6,8 +6,8 @@
         "location": "/__w/charts/charts/community/prowlarr/1.2.39",
         "last_update": "2024-10-07 13:10:31",
         "required_features": [
-            "normalize/ixVolume",
-            "normalize/acl"
+            "normalize/acl",
+            "normalize/ixVolume"
         ],
         "human_version": "1.25.1.4770_1.2.39",
         "version": "1.2.39",

@@ -4,7 +4,7 @@
         "supported": false,
         "healthy_error": null,
         "location": "/__w/charts/charts/community/tdarr/1.2.15",
-        "last_update": "2024-10-07 12:29:01",
+        "last_update": "2024-09-26 11:15:24",
         "required_features": [
             "normalize/acl",
             "normalize/ixVolume",
